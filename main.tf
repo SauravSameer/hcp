@@ -4,7 +4,7 @@ provider "aws" {
 
 resource "aws_instance" "one" {
   count = 4
-  ami = "ami-00af95fa354fdb788"
+  ami = "ami-02d26659fd82cf299"
   key_name = "terakey"
   vpc_security_group_ids = ["sg-0c7ad9e34378a3399"]
   instance_type = "t3.micro"
