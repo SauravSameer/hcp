@@ -6,7 +6,7 @@ resource "aws_instance" "one" {
   count = 4
   ami = "ami-02d26659fd82cf299"
   key_name = "terakey"
-  vpc_security_group_ids = ["sg-0c7ad9e34378a3399"]
+  vpc_security_group_ids = ["sg-0a1129df58ee0267e"]
   instance_type = "t3.micro"
 
   tags = {
